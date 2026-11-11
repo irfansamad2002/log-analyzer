@@ -2,7 +2,9 @@ VALID_LEVELS = ("INFO", "WARNING", "ERROR")
 
 def filter_log_entries(log_text: str, level:str) -> list[str]:
     if level not in VALID_LEVELS:
-        raise ValueError(f"Invalid log level:")
+        raise ValueError(
+            f"Invalid log level: {level}. "
+            f"Expected one of: {', '.join(VALID_LEVELS)}")
 
     matching_entries = []
 

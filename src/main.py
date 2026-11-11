@@ -122,7 +122,7 @@ def main():
             for entry in entries:
                 print(entry)
 
-    logging.info("Analysis completed successfuly.")
+    logging.info("Analysis completed successfully.")
 
     return 0
 
