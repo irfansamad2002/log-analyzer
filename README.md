@@ -1,7 +1,16 @@
-# IT Log Analyzer
+# THIS IS A PROJECT FOR MY LEARNING.. NOT A ACTUAL PRODUCTION READY TOOL CHIIILLLLL!!!!!
 
-A command-line Python tool for analysing application log files.
+The project analyses sample log files, counts log severity levels, filter entries and uses JSON config to control analysis behaviour
 
+## What I Practiced
+
+- lil bit of python
+- Command-line interfaces with `argparse`
+- JSON configuration
+- Logging and exception handling
+- Unit testing with `unittest`
+- First time using git through command-line
+ 
 ## Features
 
 - Count log entries by severity (INFO, WARNING, ERROR).
@@ -83,9 +92,3 @@ python -m unittest discover -s tests -v
 
 This project was built to practise:
 
-- Python project structure and imports
-- Command-line interfaces with `argparse`
-- JSON configuration
-- Logging and exception handling
-- Unit testing with `unittest`
-- Git and GitHub workflows
